@@ -18,8 +18,6 @@ public class GradingSystem {
     // If it's 70-79, return 'C'.
     // If it's 60-69, return 'D'.
     // If it's less than 60, return 'F'.
-    // we can use a switch case here but let's just do what the exercise is asking
-    // us to do
     if (percentage > 90) {
       return 'A';
     } else if (percentage > 80 && percentage <= 89) {
